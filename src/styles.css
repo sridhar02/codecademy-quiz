@@ -1,0 +1,97 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.nextButton {
+  background: white;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 4px;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+.message {
+  margin: 20px 0;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.answerText {
+  padding-left: 20px;
+}
+
+.mainSummary {
+  font-size: 22px;
+}
+
+.subSummary {
+  font-size: 20px;
+}
+
+.reAttemptedText {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.reTakeButton {
+  margin-left: 20px;
+  padding: 20px 40px;
+  border-radius: 4px;
+  /* outline: none; */
+  border: 1px solid black;
+  font-size: 18px;
+  background: white;
+  color: black;
+}
+
+.userContainer {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questionContainer {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.number {
+  margin-right: 10px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 100%;
+  align-items: center;
+}
+
+.questionText {
+  margin: 10px 10px 10px 0;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.correctAnswer {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrectAnswer {
+  color: red;
+  font-weight: bold;
+  text-decoration: line-through;
+}
