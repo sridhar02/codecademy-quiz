@@ -4,7 +4,7 @@ import { QuizContainer } from './Components/QuizContainer';
 import { getQuizzes } from './data/quizzes';
 
 import './styles.css';
-import { formatQuizzes } from './Utils';
+import { formatQuizzes } from './helper';
 
 const App = () => {
   const [error, setError] = useState(null);
